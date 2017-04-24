@@ -1,0 +1,38 @@
+{
+  "name": "rebalance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rimraf dist && webpack --env.production",
+    "dev": "webpack-dev-server --env.development"
+  },
+  "dependencies": {
+    "phaser-ce": "^2.7.7"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.28.0",
+    "expose-loader": "^0.7.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.1",
+    "html-webpack-plugin": "^2.28.0",
+    "jquery": "^3.1.1",
+    "node-sass": "^4.5.0",
+    "postcss": "^5.2.16",
+    "postcss-cssnext": "^2.9.0",
+    "postcss-import": "^9.1.0",
+    "postcss-loader": "^1.3.3",
+    "precss": "^1.4.0",
+    "rimraf": "^2.6.1",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.3"
+  }
+}
