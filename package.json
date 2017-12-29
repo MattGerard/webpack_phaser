@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --env.development"
   },
   "dependencies": {
-    "phaser-ce": "^2.7.7"
+    "phaser-ce": "^2.9.4"
   },
   "devDependencies": {
     "autoprefixer-loader": "^3.2.0",
